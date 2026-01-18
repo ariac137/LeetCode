@@ -6,7 +6,8 @@ class Solution:
                 freq[num] += 1
             else:
                 freq[num] = 1
+            # print(freq)
         
-        for key, num in enumerate(freq):
+        for key, num in freq.items():
             if num == 1:
-                return num
+                return key

@@ -17,6 +17,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ariac137/LeetCode/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
 ## Math
@@ -31,5 +32,6 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ariac137/LeetCode/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->

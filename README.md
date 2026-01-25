@@ -23,6 +23,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/ariac137/LeetCode/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
 ## Matrix
 |  |

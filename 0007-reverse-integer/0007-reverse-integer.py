@@ -7,19 +7,16 @@ class Solution:
         rev = 0
         x = abs(x)
         
-        while True:
+        while x != 0:
             digit = x % 10
-            x = x // 10
-            if x == 0:
-                break
-            rev = rev * 10 + digit
-            # print(rev)
-            if rev > MAX_INT or rev*sign < MIN_INT:
+            x //= 10
+            if rev > MAX_INT // 10:
                 return 0
-        # print(rev)
-        rev = rev * 10 + digit
-        if rev > MAX_INT or rev*sign < MIN_INT:
-            return 0
+            # If rev == MAX_INT // 10, check if the digit pushes it over the edge
+            if rev == MAX_INT // 10 and digit > 7:
+                return 0
+                
+            rev = rev * 10 + digit
         
         return rev*sign
 

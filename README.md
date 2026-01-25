@@ -17,6 +17,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
 ## Math
 |  |
@@ -25,5 +26,10 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
+## Hash Table
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->

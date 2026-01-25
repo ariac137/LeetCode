@@ -14,4 +14,16 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/ariac137/LeetCode/tree/master/0344-reverse-string) |
+## Array
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
+## Math
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->

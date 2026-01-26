@@ -9,5 +9,7 @@ class Solution:
         for char in t:
             index = ord(char) - ord('a')
             count[index] -= 1
+            if count[index] < 0:
+                return False
         
         return not any(count)

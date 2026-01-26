@@ -9,10 +9,12 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/ariac137/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/ariac137/LeetCode/tree/master/0344-reverse-string) |
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/ariac137/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ariac137/LeetCode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/ariac137/LeetCode/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/ariac137/LeetCode/tree/master/0387-first-unique-character-in-a-string) |

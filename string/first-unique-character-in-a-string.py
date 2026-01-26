@@ -5,11 +5,10 @@ class Solution:
             item = s[i]
             if item in duplicated_items:
                 continue
-            if i >= len(s) - 1:
+            if (i >= len(s) - 1) or item not in s[i + 1:]:
                 return i
-            if item in s[i + 1:]:
-                duplicated_items.append(item)
-            else: 
-                return i
+            
+            duplicated_items.append(item)
+
             
         return -1

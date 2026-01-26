@@ -14,6 +14,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/ariac137/LeetCode/tree/master/0344-reverse-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/ariac137/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Array
 |  |
 | ------- |
@@ -35,4 +36,13 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [0001-two-sum](https://github.com/ariac137/LeetCode/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
+| [0387-first-unique-character-in-a-string](https://github.com/ariac137/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/ariac137/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+## Counting
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/ariac137/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->

@@ -16,17 +16,22 @@ class Solution:
             if not s[i].isdigit():
                 if i == 0 and s[i] == "-":
                     sign = -1
+                    i += 1
+                    continue
+                elif i == 0 and s[i] == "+":
+                    sign = 1
+                    i += 1
                     continue
                 else:
                     break
             
             # is digit
             digit = int(s[i])
-            # print(result)
-            if sign*result > MAX_INT/10 or (sign*result == MAX_INT/10 and digit > 7):
+            
+            if sign*result > MAX_INT//10 or (sign*result == MAX_INT//10 and digit > 7):
                 return MAX_INT
-                
-            if sign*result < MIN_INT/10 or (sign*result == MAX_INT/10 and digit > 8):
+            
+            if sign*result < int(MIN_INT/10) or (sign*result == int(MIN_INT/10) and digit > 8):
                 return MIN_INT
             
             result = result * 10 + digit

@@ -9,17 +9,16 @@ class Solution:
         if not head:
             return False
             
-        slow = head
-        fast = head
-        
-        # We check fast and fast.next to ensure we can move 2 steps forward
-        while fast and fast.next:
-            slow = slow.next          # 1 step
-            fast = fast.next.next     # 2 steps
-            
-            # If they meet, there's a loop!
-            if slow == fast:
+        existing_address = []
+        MAX_COUNT = 10 ** 4
+        count = 0
+        while head:
+            if id(head) in existing_address:
                 return True
-                
-        # If fast hits the end, there is no loop
+            existing_address.append(id(head))
+            count += 1
+            if count > MAX_COUNT:
+                return True
+            head = head.next
+        
         return False

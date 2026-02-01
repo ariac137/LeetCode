@@ -6,19 +6,17 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        if not head:
-            return False
-            
-        existing_address = []
-        MAX_COUNT = 10 ** 4
-        count = 0
-        while head:
-            if id(head) in existing_address:
-                return True
-            existing_address.append(id(head))
-            count += 1
-            if count > MAX_COUNT:
-                return True
-            head = head.next
+    
+        # Use a set for O(1) lookups
+        visited_nodes = set()
         
+        curr = head
+        while curr:
+            # We store the node object itself (Python handles the id/hashing)
+            if curr in visited_nodes:
+                return True
+            
+            visited_nodes.add(curr)
+            curr = curr.next
+            
         return False

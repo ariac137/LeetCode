@@ -6,13 +6,20 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        MAX_LENGTH = 10 ** 4
-        length = 0
+        if not head:
+            return False
+            
+        slow = head
+        fast = head
         
-        while head:
-            head = head.next
-            length += 1
-            if length > MAX_LENGTH:
+        # We check fast and fast.next to ensure we can move 2 steps forward
+        while fast and fast.next:
+            slow = slow.next          # 1 step
+            fast = fast.next.next     # 2 steps
+            
+            # If they meet, there's a loop!
+            if slow == fast:
                 return True
-        
+                
+        # If fast hits the end, there is no loop
         return False

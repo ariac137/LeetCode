@@ -8,20 +8,13 @@ class Solution:
         if head == None:
             return head
         
-        head_list = []
-        while head != None:
-            head_list.append(head.val)
-            head = head.next
-        
-        head_list.reverse()
-        prev = None
-        i = 0
-        while i < len(head_list):
-            if prev != None:
-                prev.next = ListNode(head_list[i])
-                prev = prev.next
-            else:
-                new_head = ListNode(head_list[i])
-                prev = new_head
-            i += 1
-        return new_head
+        curr = head
+        while curr.next != None:
+            next_node = curr.next
+            temp_next_next = next_node.next
+            next_node.next = head
+            curr.next = temp_next_next
+            head = next_node
+            
+        return head
+            

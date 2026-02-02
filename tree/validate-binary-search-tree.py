@@ -6,34 +6,19 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        if not root:
-            return True
+        vals = []
         
-        if not root.left and not root.right:
-            return True
+        def inOrder(node):
+            if not node:
+                return
+            inOrder(node.left)
+            vals.append(node.val)
+            inOrder(node.right)
+            
+        inOrder(root)
         
-        if root.left and max(self.treeToList(root.left)) >= root.val:
-            return False
-        
-        if root.right and min(self.treeToList(root.right)) <= root.val:
-            return False
-        
-        return self.isValidBST(root.left) and self.isValidBST(root.right)
-    
-
-    def treeToList(self, root: Optional[TreeNode]) -> list:
-        if not root:
-            return []
-        left = right = []
-        if root.left:
-            left = self.treeToList(root.left)
-        if root.right:
-            right = self.treeToList(root.right)
-
-        return left + [root.val] + right
-        
-        
-                
-                
-
-                
+        # Check if the list is strictly increasing
+        for i in range(1, len(vals)):
+            if vals[i] <= vals[i-1]:
+                return False
+        return True

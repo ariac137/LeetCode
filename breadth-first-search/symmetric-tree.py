@@ -6,18 +6,9 @@
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        left = root.left
-        right = root.right
-        
-        if not left and not right:
+        if not root:
             return True
-        
-        elif left and right:
-            return self.mirrorTree(left, right)
-            
-        else:
-            return False
-    
+        return self.mirrorTree(root.left, root.right)
     
     def mirrorTree(self, tree1: Optional[TreeNode], tree2: Optional[TreeNode]) -> bool:
         if not tree1 and not tree2:

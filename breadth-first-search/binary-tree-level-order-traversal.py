@@ -11,21 +11,21 @@ class Solution:
             return result
         
         tree = [root]
-        prev_count = 1
+       
         while tree:
             temp_result = []
-            new_count = 0
-            while prev_count > 0:
+            
+            for _ in range(len(tree)):
                 node = tree.pop(0)
-                prev_count -= 1
+             
                 temp_result.append(node.val)
                 if node.left:
                     tree.append(node.left)
-                    new_count += 1
+                    
                 if node.right:
                     tree.append(node.right)
-                    new_count += 1
-            prev_count = new_count
+                   
+
             result.append(temp_result)
             
         return result

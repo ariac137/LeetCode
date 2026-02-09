@@ -1,10 +1,17 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
         
-        if n == 1:
-            return 1
+        if n <= 2:
+            return n
         
-        if n == 2:
-            return 2
+        # 'first' represents n-2, 'second' represents n-1
+        first, second = 1, 2
         
-        return self.climbStairs(n - 1) + self.climbStairs(n - 2)
+        for i in range(3, n + 1):
+            # The current step is the sum of the previous two
+            current = first + second
+            # Update our pointers for the next iteration
+            first = second
+            second = current
+            
+        return second

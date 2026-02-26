@@ -15,6 +15,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/ariac137/LeetCode/tree/master/0013-roman-to-integer) |
 | [0125-valid-palindrome](https://github.com/ariac137/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ariac137/LeetCode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/ariac137/LeetCode/tree/master/0344-reverse-string) |
@@ -30,6 +31,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/ariac137/LeetCode/tree/master/0007-reverse-integer) |
+| [0013-roman-to-integer](https://github.com/ariac137/LeetCode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
 | [0326-power-of-three](https://github.com/ariac137/LeetCode/tree/master/0326-power-of-three) |
 ## Matrix
@@ -41,6 +43,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ariac137/LeetCode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/ariac137/LeetCode/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
 | [0242-valid-anagram](https://github.com/ariac137/LeetCode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/ariac137/LeetCode/tree/master/0387-first-unique-character-in-a-string) |

@@ -31,6 +31,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | ------- |
 | [0007-reverse-integer](https://github.com/ariac137/LeetCode/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
+| [0326-power-of-three](https://github.com/ariac137/LeetCode/tree/master/0326-power-of-three) |
 ## Matrix
 |  |
 | ------- |
@@ -55,4 +56,8 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/ariac137/LeetCode/tree/master/0242-valid-anagram) |
+## Recursion
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/ariac137/LeetCode/tree/master/0326-power-of-three) |
 <!---LeetCode Topics End-->

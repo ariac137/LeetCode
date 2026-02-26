@@ -3,10 +3,12 @@ class Solution:
         if n <= 0:
             return False
         
-        if n == 1:
-            return True
-        
-        if n % 3 != 0:
-            return False
-        
-        return self.isPowerOfThree(n // 3)
+        while True:
+            if n == 1:
+                return True
+            
+            if n % 3 != 0:
+                return False
+            
+            n = n // 3
+            

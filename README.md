@@ -73,4 +73,12 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/ariac137/LeetCode/tree/master/0204-count-primes) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/ariac137/LeetCode/tree/master/0191-number-of-1-bits) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/ariac137/LeetCode/tree/master/0191-number-of-1-bits) |
 <!---LeetCode Topics End-->

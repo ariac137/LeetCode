@@ -27,12 +27,14 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ariac137/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0036-valid-sudoku](https://github.com/ariac137/LeetCode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
+| [0204-count-primes](https://github.com/ariac137/LeetCode/tree/master/0204-count-primes) |
 ## Math
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/ariac137/LeetCode/tree/master/0007-reverse-integer) |
 | [0013-roman-to-integer](https://github.com/ariac137/LeetCode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ariac137/LeetCode/tree/master/0048-rotate-image) |
+| [0204-count-primes](https://github.com/ariac137/LeetCode/tree/master/0204-count-primes) |
 | [0326-power-of-three](https://github.com/ariac137/LeetCode/tree/master/0326-power-of-three) |
 ## Matrix
 |  |
@@ -63,4 +65,12 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 |  |
 | ------- |
 | [0326-power-of-three](https://github.com/ariac137/LeetCode/tree/master/0326-power-of-three) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/ariac137/LeetCode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/ariac137/LeetCode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->

@@ -4,12 +4,13 @@ class Solution:
         if n <= 2:
             return 0
         
-        primes = [i for i in range(2, n)]
+        primes = [True] * n
+        
+        primes[0] = primes[1] = False
 
-        for prime in primes:
-            if prime * prime <= n:
-                primes = [i for i in primes if (i == prime or i % prime != 0)]
-            else:
-                break
+        for i in range(2, int(n**0.5) + 1):
+            if primes[i]:
+                for multiple in range(i * i, n, i):
+                    primes[multiple] = False
             
-        return len(primes)
+        return sum(primes)
